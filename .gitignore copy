@@ -1,0 +1,12 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+logs
+*.log
+# Dependency directories
+node_modules/
+jspm_packages/
+pharmacy/docs/current
+dist/

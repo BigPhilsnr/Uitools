@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../apps/frontend/frontend/public/test.bundle.js"],
-  "sourcesContent": ["alert(\"Hey esbuild\")"],
-  "mappings": ";;AAAA,QAAM;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../apps/frontend/frontend/public/js/client_scripts/patient_appointment_emergency.bundle.js"],
-  "sourcesContent": ["frappe.ui.form.on('Patient Appointment', {\n    refresh: (frm) => {\n        if (!frm.doc.is_emergency) {\n            frm.add_custom_button('Mark as emergency', () => {\n                frm.set_value(\"is_emergency\", 1);\n                frm.set_value(\"turned_up\", 1);\n                frm.save();\n                frm.refresh();\n\n            })\n        }\n\n    }\n})\n\nfrappe.ui.form.on(\"Sales Invoice\", {\n    refresh: function(frm) {\n        frm.set_df_property('items', 'read_only', 0)\n    }\n\n})\n\nfrappe.ui.form.on(\"Sales Order\", {\n    refresh: function(frm) {\n        frm.set_df_property('items', 'read_only', 1)\n    }\n\n})"],
-  "mappings": ";;AAAA,SAAO,GAAG,KAAK,GAAG,uBAAuB;AAAA,IACrC,SAAS,CAAC,QAAQ;AACd,UAAI,CAAC,IAAI,IAAI,cAAc;AACvB,YAAI,kBAAkB,qBAAqB,MAAM;AAC7C,cAAI,UAAU,gBAAgB;AAC9B,cAAI,UAAU,aAAa;AAC3B,cAAI;AACJ,cAAI;AAAA;AAAA;AAAA;AAAA;AAQpB,SAAO,GAAG,KAAK,GAAG,iBAAiB;AAAA,IAC/B,SAAS,SAAS,KAAK;AACnB,UAAI,gBAAgB,SAAS,aAAa;AAAA;AAAA;AAKlD,SAAO,GAAG,KAAK,GAAG,eAAe;AAAA,IAC7B,SAAS,SAAS,KAAK;AACnB,UAAI,gBAAgB,SAAS,aAAa;AAAA;AAAA;",
-  "names": []
-}

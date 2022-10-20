@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../apps/frontend/frontend/public/js/client_scripts/doctor.bundle.js"],
-  "sourcesContent": ["frappe.ui.form.on('Practitioner Service Unit Schedule', \"onload\", function(frm) {\n    frm.set_query(\"service_unit\", function() {\n        return {\n            \"filters\": {\n                \"is_group\": 1,\n\n            }\n        };\n    });\n})\n\nfrappe.ui.form.on(\"Healthcare Practitioner\", {\n    refresh: (frm) => {\n        frm.set_query('service_unit', 'practitioner_schedules', function(){\n\t\t\treturn {\n\t\t\t\tfilters: {\n\t\t\t\t\t'is_group': 1,\n\t\t\t\t\t'allow_appointments': true\n\t\t\t\t}\n\t\t\t};\n\t\t});\n    }\n}); "],
-  "mappings": ";;AAAA,SAAO,GAAG,KAAK,GAAG,sCAAsC,UAAU,SAAS,KAAK;AAC5E,QAAI,UAAU,gBAAgB,WAAW;AACrC,aAAO;AAAA,QACH,WAAW;AAAA,UACP,YAAY;AAAA;AAAA;AAAA;AAAA;AAO5B,SAAO,GAAG,KAAK,GAAG,2BAA2B;AAAA,IACzC,SAAS,CAAC,QAAQ;AACd,UAAI,UAAU,gBAAgB,0BAA0B,WAAU;AACvE,eAAO;AAAA,UACN,SAAS;AAAA,YACR,YAAY;AAAA,YACZ,sBAAsB;AAAA;AAAA;AAAA;AAAA;AAAA;",
-  "names": []
-}

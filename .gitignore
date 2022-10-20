@@ -3,4 +3,10 @@
 *.egg-info
 *.swp
 tags
-uitools/docs/current
+logs
+*.log
+# Dependency directories
+node_modules/
+jspm_packages/
+pharmacy/docs/current
+dist/

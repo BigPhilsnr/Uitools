@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../apps/frontend/frontend/public/js/client_scripts/sales_order.bundle.js"],
-  "sourcesContent": ["frappe.ui.form.on(\"Sales Order\", {\n    refresh: function(frm) {\n        frm.set_df_property('items', 'read_only', 1)\n    }\n\n})"],
-  "mappings": ";;AAAA,SAAO,GAAG,KAAK,GAAG,eAAe;AAAA,IAC7B,SAAS,SAAS,KAAK;AACnB,UAAI,gBAAgB,SAAS,aAAa;AAAA;AAAA;",
-  "names": []
-}
