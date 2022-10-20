@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../apps/frontend/frontend/public/js/client_scripts/sales_invoice.bundle.js"],
+  "sourcesContent": ["frappe.ui.form.on(\"Sales Invoice\", {\n    refresh: function(frm) {\n        frm.set_df_property('items', 'read_only', 0)\n    }\n})"],
+  "mappings": ";;AAAA,SAAO,GAAG,KAAK,GAAG,iBAAiB;AAAA,IAC/B,SAAS,SAAS,KAAK;AACnB,UAAI,gBAAgB,SAAS,aAAa;AAAA;AAAA;",
+  "names": []
+}

@@ -1,0 +1,148 @@
+/* ../../../../../tmp/tmp-9484-uRN87oQh4lDT/frontend/frontend/public/css/patient/app/main.bundle.css */
+#page-mtrh-patient-chart {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#page-supplier-portal {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#page-clinical-procedures {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#page-accounts {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#page-mtrh-patient-chart::-webkit-scrollbar {
+  display: none;
+}
+#page-supplier-portal::-webkit-scrollbar {
+  display: none;
+}
+#page-accounts::-webkit-scrollbar {
+  display: none;
+}
+#page-records {
+  margin: 0;
+  height: 100vh !important;
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#page-accounts {
+  margin: 0;
+  height: 100vh !important;
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.watu {
+  overflow: hidden;
+}
+#page-records::-webkit-scrollbar {
+  display: none;
+}
+.awesomplete > ul {
+  position: absolute;
+  width: 100%;
+  list-style: none;
+  background-color: var(--fg-color);
+  max-height: min(60vh, 300px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  right: 0;
+  margin: 0;
+  padding: var(--padding-xs);
+  z-index: 100000;
+}
+@media only screen and (max-width: 767px) {
+  #page-mtrh-patient-chart {
+    margin: 0;
+    height: 100vh !important;
+    overflow: scroll;
+  }
+  #page-supplier-portal {
+    margin: 0;
+    height: 100vh !important;
+    overflow: scroll;
+  }
+  #page-records {
+    margin: 0;
+    height: 100vh !important;
+    overflow: scroll;
+  }
+  #page-accounts {
+    margin: 0;
+    height: 100vh !important;
+    overflow: scroll;
+  }
+  .aside-bottom-padding {
+    padding-bottom: 0px;
+  }
+  .watu {
+    margin-left: 0px;
+    padding-left: 0px;
+    overflow-x: hidden;
+  }
+}
+@media only screen and (min-width: 767px) {
+  #page-mtrh-patient-chart {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  #page-records {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  .aside-bottom-padding {
+    padding-bottom: 100%;
+  }
+}
+.form-control {
+  padding: 0.438rem 1rem;
+  background-color: #fff !important;
+  background-clip: padding-box;
+  border: 1px solid #d8d6de;
+  border-radius: 0.357rem;
+}
+body.full-width .container {
+  width: 100%;
+  max-width: 100%;
+}
+element {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+.top-bar-spacing {
+  padding-left: 0px !important;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 100% !important;
+  max-width: 3000px;
+}
+.table-responsive > .table-bordered {
+  border: 0;
+  margin: 0px !important;
+}
+.container-fluid {
+}

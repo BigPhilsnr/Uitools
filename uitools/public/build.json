@@ -1,0 +1,74 @@
+{
+    "js/pharmacy.min.js": [
+        "public/js/custom-scripts/main.js",
+        "public/js/pharmacy/pharmacy.js",
+        "public/item_dashboard_list.html"
+    ],
+    "js/router.min.js": [
+        "public/js/supplier/supplier.js",
+        "public/js/router/router.bundle.js",
+        "public/js/patient/patient.js",
+        "public/js/accounts/accounts.js",
+        "public/js/records/records.js",
+        "public/js/forms/lib/fb.bundle.js",
+        "public/js/queue_management/queue_management.bundle.js",
+        "public/js/client_scripts/healthcare_service_unit_script.bundle.js",
+        "public/js/client_scripts/page.js",
+        "public/js/html/render.js",
+        "public/js/customer_dash/customer_dash.bundle.js"
+    ],
+    "css/pharmacy.min.css": ["public/css/pharmacy/pharmacy.css"],
+    "js/nursing.min.js": [
+        "public/js/nursing/nursing.js",
+        "public/js/client_scripts/clinical_procedure_template.js",
+        "public/js/client_scripts/healthcare_service_unit.js",
+        "public/js/client_scripts/patient.js",
+        "public/js/client_scripts/mtrh_forms.js",
+        "public/js/client_scripts/patient_appointment_emergency.js",
+        "public/js/client_scripts/clinical_procedure.js",
+        "public/js/upload/upload.js"
+    ],
+    "js/records.min.js": ["public/js/records/records.js"],
+    "css/nursing.min.css": ["public/css/nursing/nursing.css"],
+    "css/patient.min.css": [
+        "public/css/patient/app/main.css",
+        "public/css/supplier/supplier.css",
+        "public/css/forms/fb.css",
+        "public/css/forms/icd.css"
+    ],
+    "js/patient.min.js": [
+        "public/js/client_scripts/page.js",
+        "public/js/html/render.js",
+        "public/js/utilities.js"
+    ],
+    "css/forms.min.css": ["public/css/forms/fb.css", "public/css/forms/bt.css"],
+
+    "css/fb.min.css": ["public/css/forms/fb.css", "public/css/forms/vn.css"],
+    "js/forms.min.js": [
+        "public/js/forms/lib/fb.js",
+        "public/js/forms/forms.js",
+        "public/js/forms/form-field.html",
+        "public/js/forms/forms-render.js",
+        "public/js/forms/forms-concept-builder.js",
+        "public/js/mpesa_dialog.js"
+    ],
+    "js/doctype.min.js": [
+        "public/js/client_scripts/clinical_procedure_template.js",
+        "public/js/client_scripts/healthcare_service_unit.js",
+        "public/js/client_scripts/patient.js",
+        "public/js/client_scripts/mtrh_forms.js",
+        "public/js/client_scripts/patient_appointment_emergency.js",
+        "public/js/client_scripts/clinical_procedure.js",
+        "public/js/client_scripts/sales_invoice.js",
+        "public/js/client_scripts/sales_order.js",
+        "public/js/client_scripts/file.js"
+    ],
+    "mtrh_dev/js/utilities.min.js": ["public/js/utilities.js", "public/js/services/intergrations/mobile_payments/mobile_payments.js"],
+    "css/supplier.min.css": ["public/css/supplier/supplier.css"],
+    "js/clinical_procedures.min.js": [
+        "public/js/clinical_procedures/clinical_procedures.js"
+    ],
+    "js/supplier.min.js": [
+
+    ]
+}

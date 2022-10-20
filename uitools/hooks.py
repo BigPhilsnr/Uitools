@@ -1,4 +1,6 @@
 from . import __version__ as app_version
+from uitools.css_import import get_css_imports
+from uitools.js_import import get_js_imports
 
 app_name = "uitools"
 app_title = "Uitools"
@@ -13,8 +15,8 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/uitools/css/uitools.css"
-# app_include_js = "/assets/uitools/js/uitools.js"
+app_include_css = get_css_imports()
+app_include_js = get_js_imports()
 
 # include js, css files in header of web template
 # web_include_css = "/assets/uitools/css/uitools.css"

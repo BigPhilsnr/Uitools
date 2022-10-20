@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../apps/frontend/frontend/public/js/client_scripts/doctor_sheduler_unit.bundle.js"],
+  "sourcesContent": ["frappe.ui.form.on(\"Practitioner Service Unit Schedule\", {\n    practitioner_schedules_add: function(frm) {\n        frm.set_query(\"service_unit\", \"practitioner_schedules\", function() {\n            return {\n                filters: {\n                    is_group: 1,\n                },\n            };\n        });\n    },\n});"],
+  "mappings": ";;AAAA,SAAO,GAAG,KAAK,GAAG,sCAAsC;AAAA,IACpD,4BAA4B,SAAS,KAAK;AACtC,UAAI,UAAU,gBAAgB,0BAA0B,WAAW;AAC/D,eAAO;AAAA,UACH,SAAS;AAAA,YACL,UAAU;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

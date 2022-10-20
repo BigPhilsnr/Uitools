@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../apps/frontend/frontend/public/js/service_worker/sw.bundle.js"],
+  "sourcesContent": ["if(navigator.serviceWorker){\n    console.log(\"Service workers supported\")\n    window.addEventListener('load', ()=> {\n      navigator.serviceWorker.register('https://demo.mtrh.go.ke/files/test.js')\n      .then( reg => console.log('Service worker registered'))\n      .catch(err=> console.log( ` Error occured ${err}`))\n    })\n\n}else{\n    console.log('SERVICE WORKER NOT SUPPORTED')\n}"],
+  "mappings": ";;AAAA,MAAG,UAAU,eAAc;AACvB,YAAQ,IAAI;AACZ,WAAO,iBAAiB,QAAQ,MAAK;AACnC,gBAAU,cAAc,SAAS,yCAChC,KAAM,SAAO,QAAQ,IAAI,8BACzB,MAAM,SAAM,QAAQ,IAAK,kBAAkB;AAAA;AAAA,SAG7C;AACD,YAAQ,IAAI;AAAA;",
+  "names": []
+}
